@@ -1,0 +1,112 @@
+body {
+  background: #c5f6fa;
+}
+p {
+  color: black;
+}
+h1 {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 70px;
+  color: #638bf1;
+  text-align: center
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: helvetica;
+  color: #ff85b1;
+  text-align: center;
+  border: dashed;
+}
+h3 {
+  font-size: 16px;
+  font-family: times;
+  font-weight: normal;
+  color: #638bf1;
+  text-align: center;
+}
+img{
+  margin:auto;
+  width: 300px;
+  display: block;
+  border-radius: 3px;
+  border: dashed #ff85b1;
+}
+body{
+  font-size: 16px;
+  font-family: times;
+  font-weight: normal;
+  color: #638bf1;
+  text-align: center;
+}
+p{
+  font-size: 16px;
+  font-family: times;
+  font-weight: normal;
+  color: #638bf1;
+  text-align: center;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 310px;
+}
+.project1 {
+order:-1;
+align-self: flex-start;
+}
+
+.project2 {
+  order:1;
+  align-self: flex-end;
+}
+.project3 {
+  order:1;
+  align-self: flex-end;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.link1 {
+order:-1;
+align-self: flex-start;
+}
+
+.link2 {
+  order:1;
+  align-self: center;
+}
+.link3 {
+  order:1;
+  align-self: flex-end;
+}
+.pages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 360px;
+}
+.page1 {
+order:-1;
+align-self: flex-start;
+}
+
+.page2 {
+  order:1;
+  align-self: center;
+}
+.page3 {
+  order:1;
+  align-self: flex-end;
+}
+.screenshot{
+  width:900px;
+}
